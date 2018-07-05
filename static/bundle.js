@@ -20060,12 +20060,11 @@ var App = function (_React$Component) {
     value: function fetchingRecipes(ingredient) {
       var _this2 = this;
 
-      var url = "/recipes/" + ingredient; // getting fetched through the server server.js
+      var url = "/recipes/" + ingredient;
 
       fetch(url).then(function (response) {
         return response.json();
       }).then(function (data) {
-        console.log(data);
         _this2.setState({ recipeData: data.recipes });
       });
     }
@@ -20077,8 +20076,6 @@ var App = function (_React$Component) {
   }, {
     key: "addToFavourites",
     value: function addToFavourites(link, title, id) {
-      console.log(link, title, id);
-
       this.setState(function (prevState) {
         var newFavourites = Object.assign({}, prevState.favourites, _defineProperty({}, id, {
           link: link,
@@ -20108,7 +20105,6 @@ var App = function (_React$Component) {
     value: function render() {
       var _this3 = this;
 
-      // console.log(this.state.currentInput);
       return _react2.default.createElement(
         "div",
         { className: "app" },

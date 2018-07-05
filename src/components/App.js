@@ -27,12 +27,11 @@ class App extends React.Component {
   }
 
   fetchingRecipes(ingredient) {
-    const url = `/recipes/${ingredient}`; // getting fetched through the server server.js
+    const url = `/recipes/${ingredient}`;
 
     fetch(url)
       .then(response => response.json())
       .then(data => {
-        console.log(data);
         this.setState({ recipeData: data.recipes });
       });
   }
@@ -42,8 +41,6 @@ class App extends React.Component {
   }
 
   addToFavourites(link, title, id) {
-    console.log(link, title, id);
-
     this.setState(prevState => {
       const newFavourites = Object.assign({}, prevState.favourites, {
         [id]: {
@@ -71,7 +68,6 @@ class App extends React.Component {
   }
 
   render() {
-    // console.log(this.state.currentInput);
     return (
       <div className="app">
         <Search
