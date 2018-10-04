@@ -1,16 +1,7 @@
 # Your own project
 
-Build an app of your choice.
-
-- You are free to use any technologies covered so far. You are welcome to try new technologies you find interesting.
-- Keep it simple. Aim to get the basic functionality working on day one. You can then extend it on days two and three.
-- Feel free to use an external API to provide additional functionality to your app. Avoid APIs that use complex authentication mechanisms.
-- Use pen and paper to draw a diagram of the webpage layout before starting to code. Have a think about what components you will need in advance.
-- Think about how to organise your data in advance
-- Make sure your app is responsive
-- Commit frequently
-- Create pull request at the end
-- Keep it simple
+Recipe Search App - web app in which you can search for food recipes using wanted dish ingredient as a keyword. Built with Javascript, CSS flex, React, Express and external API.
+Demo app // enigmatic-escarpment-98576.herokuapp.com
 
 ## Technical notes
 
@@ -22,11 +13,3 @@ Build an app of your choice.
 * The node server file is `/server.js`
 * The index home page is in `/views/index.hbs`
 * Place all static files such as images and CSS in the `static` folder.
-
-## README
-
-* Produce a README.md which explains
-  * what the project does
-  * what technologies it uses
-  * how to build it and run it
-  * any unresolved issues the user should be aware of
