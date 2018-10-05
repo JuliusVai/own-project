@@ -14,10 +14,11 @@ Demo app // http://enigmatic-escarpment-98576.herokuapp.com
 
 <img  width ="600px" src="./screenshots/screenshot1.png" alt="Page screenshot"/>
 
-## Technical notes
+## To run locally 
 
-- Run `npm install` after cloning to download all dependencies
-- Use `npm run dev -- --watch` to build React
-- Use `node server.js` to run the Node server in another tab
-- You can view the site at [http://localhost:8080](http://localhost:8080)
-- If you would like to user `nodemon` to automatically rebuild your server, run `npm run server`
+In command line:
+
+- `npm install`
+- `npm run dev`
+- in separate window `npm run server`
+- go to : http://localhost:8080/
