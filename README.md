@@ -1,6 +1,14 @@
-# Your own project
+## Recipe Search
 
-Recipe Search App - web app in which you can search for food recipes using wanted dish ingredient as a keyword. Built with Javascript, CSS flex, React, Express and external API.
+Web application in which you can search for food recipes using wanted dish ingredient as a keyword.
+
+## Technologies used:
+
+- Javascript
+- CSS flex
+- React
+- Express
+- external API
 
 Demo app // http://enigmatic-escarpment-98576.herokuapp.com
 
